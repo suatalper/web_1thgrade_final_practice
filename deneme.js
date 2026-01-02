@@ -12,6 +12,9 @@ const btnCarp = document.getElementById("carp");
 const btnBol = document.getElementById("bol");
 const sonuc2 = document.getElementById("sonuc2");
 
+const buton = document.getElementById("basvuru-btn");
+const sonuc = document.getElementById("basvuru-sonuc");
+
 btn.addEventListener("click", () => {
   if (isimInput.value == "") {
     alert("Lütfen bir isim giriniz");
@@ -53,4 +56,9 @@ btnCarp.addEventListener("click", () => {
 btnBol.addEventListener("click", () => {
   let sonuc = parseFloat(sayi1.value) / parseFloat(sayi2.value);
   sonuc2.innerHTML = "Sonuç: " + sonuc;
+});
+
+buton.addEventListener("click", function () {
+  // Buraya birazdan sihirli kodları yazacağız...
+  alert("Butona tıklandı!"); // Şimdilik sadece çalıştığını test edelim
 });

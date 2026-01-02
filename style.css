@@ -17,6 +17,13 @@ body {
   width: 400px;
 }
 
+.checkbox-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 h1, h3 {
   color: #333;
   text-align: center;
